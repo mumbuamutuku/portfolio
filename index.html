@@ -5,9 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Mumbua Mutuku Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Mumbua Mutuku | Backend Developer &amp; IT Consultant</title>
+  <meta content="Mumbua Mutuku: backend developer and IT consultant in Nairobi, Kenya. I build billing systems, dashboards, websites and mobile app backends with Next.js, NestJS, FastAPI, Node.js and PostgreSQL." name="description">
+  <meta content="backend developer, Nairobi, Kenya, NestJS, FastAPI, Node.js, Next.js, PostgreSQL, billing system, IT consultant" name="keywords">
+  <meta property="og:title" content="Mumbua Mutuku | Backend Developer &amp; IT Consultant">
+  <meta property="og:description" content="Billing systems, dashboards, websites and mobile app backends for businesses in Kenya.">
+  <meta property="og:image" content="assets/img/profile-img.jpg">
+  <meta property="og:type" content="website">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -46,7 +50,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/profile-img.jpg" alt="Mumbua Mutuku" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Mumbua Mutuku</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://twitter.com/lilwildkid" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -62,7 +66,8 @@
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#clients" class="nav-link scrollto"><i class="bx bx-briefcase"></i> <span>Client Work</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
           <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
@@ -74,7 +79,11 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Mumbua Mutuku</h1>
-      <p>I'm <span class="typed" data-typed-items="Consultant, Backend Developer, Freelancer, Virtual Assistant"></span></p>
+      <p>I'm <span class="typed" data-typed-items="Backend Developer, IT Consultant, Freelancer, Virtual Assistant"></span></p>
+      <div class="hero-cta">
+        <a href="#clients" class="btn-hero scrollto">See my client work</a>
+        <a href="#contact" class="btn-hero btn-hero-outline scrollto">Hire me</a>
+      </div>
     </div>
   </section><!-- End Hero -->
 
@@ -93,7 +102,7 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="Mumbua Mutuku">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Backend Developer, IT Consultant &amp; Virtual Assistant.</h3>
@@ -136,59 +145,51 @@
 
         <div class="section-title">
           <h2>Skills</h2>
-          <p>Some of my areas of expertise.</p>
+          <p>The languages, frameworks and tools I use to build and run client systems.</p>
         </div>
 
-        <div class="row skills-content">
+        <div class="row g-4 skill-groups">
 
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">Python <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <div class="skill-group">
+              <h3><i class="bi bi-code-slash"></i> Languages</h3>
+              <ul><li>Python</li><li>JavaScript</li><li>PHP</li></ul>
             </div>
-
-            <div class="progress">
-              <span class="skill">FastApi <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
           </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill">PHP <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-group">
+              <h3><i class="bi bi-hdd-network"></i> Backend &amp; APIs</h3>
+              <ul><li>NestJS</li><li>Node.js</li><li>FastAPI</li><li>Flask</li></ul>
             </div>
+          </div>
 
-            <div class="progress">
-              <span class="skill">Node Js <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-group">
+              <h3><i class="bi bi-window"></i> Frontend</h3>
+              <ul><li>Next.js</li><li>React</li><li>Tailwind CSS</li></ul>
             </div>
+          </div>
 
-            <div class="progress">
-              <span class="skill">Office 365 <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <div class="skill-group">
+              <h3><i class="bi bi-database"></i> Databases</h3>
+              <ul><li>PostgreSQL</li><li>MongoDB</li><li>Redis</li></ul>
             </div>
+          </div>
 
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-group">
+              <h3><i class="bi bi-cloud"></i> Cloud &amp; Tools</h3>
+              <ul><li>AWS</li><li>Netlify</li><li>Office 365</li></ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-group">
+              <h3><i class="bi bi-cpu"></i> AI &amp; Data</h3>
+              <ul><li>Machine learning</li><li>Data cleaning</li><li>Data analysis &amp; visualisation</li></ul>
+            </div>
           </div>
 
         </div>
@@ -207,7 +208,7 @@
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Sumary</h3>
+            <h3 class="resume-title">Summary</h3>
             <div class="resume-item pb-0">
               <h4>Mumbua Mutuku</h4>
               <p><em>An IT consultant, I provide strategic advice on using technology to achieve business goals. I understand customer requirements, manage IT initiatives, troubleshoot technical issues, and provide support. 
@@ -220,6 +221,12 @@
             </div>
 
             <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master of Science in Artificial Intelligence</h4>
+              <h5>Sept 2024 - Ongoing</h5>
+              <p><strong>Thesis:</strong> Zero-Shot Entropy-Based Detection of AI-Generated Images: A Comparative Benchmarking Study Against Supervised Deep Learning Baselines</p>
+              <p><em>Research in progress, not yet published.</em></p>
+            </div>
             <div class="resume-item">
               <h4>Certificate in Software Engineering</h4>
               <h5>2022 - 2023</h5>
@@ -242,6 +249,17 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
+              <h4>Freelance Software Developer</h4>
+              <h5>Client projects</h5>
+              <p><em>Self-employed - Nairobi</em></p>
+              <ul>
+                <li>Built billing systems for Print &amp; Copy Solution Ltd and ROM Power Energy Systems Ltd: quotes, invoices and receipts with PDF generation and admin login.</li>
+                <li>Built the NestJS and PostgreSQL backend for AgriFlock 360 (Google Play): surveys, campaigns, dashboards and analytics, hosted on AWS with automated backups.</li>
+                <li>Built the backend for TRUK (Google Play), a logistics app linking farmers and businesses with transporters: jobs, fleets, payments, live GPS tracking and messaging.</li>
+                <li>Built the Ambry Atelier website for a wardrobe organization consultant.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
               <h4>IT Consultant</h4>
               <h5>2019 - Present</h5>
               <p><em>Columbia Global Centers - Nairobi </em></p>
@@ -253,8 +271,8 @@
               </ul>
             </div>
             <div class="resume-item">
-              <h4>Backend Developer Intern</h4>
-              <h5>2023 - Present </h5>
+              <h4>Backend Developer</h4>
+              <h5>July 2023 - Dec 2025 </h5>
               <p><em>Nea Global Giants - Nairobi</em></p>
               <ul>
                 <li>Developed web applications and APIs using FastAPI.</li>
@@ -269,14 +287,96 @@
       </div>
     </section><!-- End Resume Section -->
 
+    <!-- ======= Client Work Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Client Work</h2>
+          <p>Production systems I have built for real businesses: billing tools they use every day, a client website, and the backends behind two mobile apps on Google Play.</p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <article class="client-card">
+              <div class="client-card-head">
+                <div class="client-icon"><i class="bi bi-receipt"></i></div>
+                <span class="client-type">Web system</span>
+              </div>
+              <h3>Print &amp; Copy Solution Ltd</h3>
+              <p class="client-sub">Billing system</p>
+              <p>Quotes, invoices and receipts with PDF generation and an admin login.</p>
+              <ul class="client-tags"><li>Next.js</li><li>PDF generation</li><li>Admin login</li></ul>
+              <a href="https://printcopybilling.netlify.app" target="_blank" rel="noopener" class="client-link">View live site <i class="bi bi-arrow-up-right"></i></a>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="client-card">
+              <div class="client-card-head">
+                <div class="client-icon"><i class="bi bi-lightning-charge"></i></div>
+                <span class="client-type">Web system</span>
+              </div>
+              <h3>ROM Power Energy Systems Ltd</h3>
+              <p class="client-sub">Billing dashboard</p>
+              <p>A billing dashboard for quotes, invoices and receipts with an admin login.</p>
+              <ul class="client-tags"><li>Dashboard</li><li>Invoicing</li><li>Admin login</li></ul>
+              <a href="https://romenergy.netlify.app" target="_blank" rel="noopener" class="client-link">View live site <i class="bi bi-arrow-up-right"></i></a>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <article class="client-card">
+              <div class="client-card-head">
+                <div class="client-icon"><i class="bi bi-handbag"></i></div>
+                <span class="client-type">Website</span>
+              </div>
+              <h3>Ambry Atelier</h3>
+              <p class="client-sub">Wardrobe organization consultant</p>
+              <p>A business website presenting the consultant&#39;s services.</p>
+              <ul class="client-tags"><li>Website</li><li>Responsive</li></ul>
+              <a href="https://ambry-atelier.netlify.app" target="_blank" rel="noopener" class="client-link">View live site <i class="bi bi-arrow-up-right"></i></a>
+            </article>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up">
+            <article class="client-card">
+              <div class="client-card-head">
+                <div class="client-icon"><i class="bi bi-clipboard-data"></i></div>
+                <span class="client-type">Mobile app backend &middot; Google Play</span>
+              </div>
+              <h3>AgriFlock 360</h3>
+              <p class="client-sub">Backend for an agriculture app</p>
+              <p>Backend for surveys, campaigns, dashboards and analytics, hosted on AWS with automated backups.</p>
+              <ul class="client-tags"><li>NestJS</li><li>PostgreSQL</li><li>AWS</li><li>Automated backups</li></ul>
+              <a href="https://play.google.com/store/search?q=AgriFlock%20360&amp;c=apps" target="_blank" rel="noopener" class="client-link">View on Google Play <i class="bi bi-arrow-up-right"></i></a>
+            </article>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="client-card">
+              <div class="client-card-head">
+                <div class="client-icon"><i class="bi bi-truck"></i></div>
+                <span class="client-type">Mobile app backend &middot; Google Play</span>
+              </div>
+              <h3>TRUK App</h3>
+              <p class="client-sub">Backend for a logistics app</p>
+              <p>Links farmers and businesses with transporters. The backend handles jobs, fleets, payments, live GPS tracking and messaging.</p>
+              <ul class="client-tags"><li>Jobs &amp; fleets</li><li>Payments</li><li>Live GPS tracking</li><li>Messaging</li></ul>
+              <a href="https://play.google.com/store/search?q=TRUK&amp;c=apps" target="_blank" rel="noopener" class="client-link">View on Google Play <i class="bi bi-arrow-up-right"></i></a>
+            </article>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Client Work Section -->
+
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
       <div class="container">
         
         <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>I have built various different projects to fit different aspects of the client's business. 
-            If you want to see more examples of my work than the ones showcased in this site, please contact me!</p>
+          <h2>Projects</h2>
+          <p>Personal and practice projects covering APIs, web apps and data analysis.
+            If you want to see more of my work, please get in touch.</p>
         </div>
 
         <div class="row" data-aos="fade-up">
@@ -448,40 +548,55 @@
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Looking for any of my service?</p>
+          <p>Looking for any of my services?</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
             <div class="icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="title"><a href="">Backend Developer</a></h4>
+            <h4 class="title"><a href="#contact" class="scrollto">Backend Developer</a></h4>
             <p class="description">Crafting efficient, secure, and scalable systems for seamless user experiences.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-window"></i></div>
+            <h4 class="title"><a href="#contact" class="scrollto">Web Development</a></h4>
+            <p class="description">Business websites and web systems, from company sites to billing dashboards with quotes, invoices, receipts and admin logins.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a href="">IT Consulting</a></h4>
+            <h4 class="title"><a href="#contact" class="scrollto">IT Consulting</a></h4>
             <p class="description">Offering strategic insights and solutions to navigate the complex world of technology.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-bar-chart"></i></div>
-            <h4 class="title"><a href="">Virtual Assistant</a></h4>
+            <h4 class="title"><a href="#contact" class="scrollto">Virtual Assistant</a></h4>
             <p class="description">Providing efficient support in managing administrative tasks and operations.
             </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="bi bi-binoculars"></i></div>
-            <h4 class="title"><a href="">Database Management</a></h4>
+            <h4 class="title"><a href="#contact" class="scrollto">Database Management</a></h4>
             <p class="description">Efficiently manage and optimize databases to ensure data integrity, performance, and security. This service includes database design, maintenance, backup strategies, and data migration.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
             <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">Customer Support and Helpdesk Services</a></h4>
+            <h4 class="title"><a href="#contact" class="scrollto">Customer Support and Helpdesk Services</a></h4>
             <p class="description">Offer customer support and helpdesk services, including ticket management, issue resolution, and customer inquiries. Ensure a positive customer experience and build strong client relationships.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
             <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">API Development and Integration</a></h4>
+            <h4 class="title"><a href="#contact" class="scrollto">API Development and Integration</a></h4>
             <p class="description">Design, develop, and maintain robust and scalable APIs (Application Programming Interfaces). These APIs can be used for integrating different software systems, connecting databases, or enabling third-party applications.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-cpu"></i></div>
+            <h4 class="title"><a href="#contact" class="scrollto">AI &amp; Data Analysis</a></h4>
+            <p class="description">Turn your data into answers. Data cleaning, analysis and visualisation, plus practical AI and machine learning solutions, backed by my MSc in Artificial Intelligence.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-shield-check"></i></div>
+            <h4 class="title"><a href="#contact" class="scrollto">Monthly Support Retainer</a></h4>
+            <p class="description">Ongoing care for your website or system for a fixed monthly fee: updates, bug fixes, backups, small changes and support when you need it.</p>
           </div>
         </div>
 
@@ -514,16 +629,16 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>mumbuamutuku@gmail.com</p>
+                <p><a href="mailto:mumbuamutuku@gmail.com">mumbuamutuku@gmail.com</a></p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+254 717876326</p>
+                <p><a href="tel:+254717876326">+254 717 876326</a></p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              <iframe src="https://maps.google.com/maps?q=Nairobi,%20Kenya&amp;z=12&amp;output=embed" title="Map of Nairobi, Kenya" loading="lazy" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
 
           </div>
@@ -536,17 +651,17 @@
                   <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
+                  <label for="email">Your Email</label>
                   <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
               <div class="form-group">
-                <label for="name">Subject</label>
+                <label for="subject">Subject</label>
                 <input type="text" class="form-control" name="subject" id="subject" required>
               </div>
               <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+                <label for="message">Message</label>
+                <textarea class="form-control" name="message" id="message" rows="10" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
@@ -572,7 +687,7 @@
       </div>
       <div class="credits">
         
-        Designed by Mumbua Mutuku</a>
+        Designed and built by Mumbua Mutuku
       </div>
     </div>
   </footer><!-- End  Footer -->

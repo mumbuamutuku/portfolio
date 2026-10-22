@@ -1104,3 +1104,178 @@ section {
     padding-right: 20px 15px;
   }
 }
+/*--------------------------------------------------------------
+# Hero call-to-action
+--------------------------------------------------------------*/
+#hero .hero-cta {
+  margin-top: 28px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#hero .btn-hero {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px 26px;
+  border-radius: 50px;
+  background: #149ddd;
+  border: 2px solid #149ddd;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#hero .btn-hero:hover {
+  background: #37b3ed;
+  border-color: #37b3ed;
+}
+
+#hero .btn-hero-outline {
+  background: transparent;
+  border-color: #fff;
+}
+
+#hero .btn-hero-outline:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #173b6c;
+}
+
+/*--------------------------------------------------------------
+# Client Work
+--------------------------------------------------------------*/
+.clients .client-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #e6eef5;
+  border-top: 4px solid #149ddd;
+  border-radius: 8px;
+  padding: 28px;
+  box-shadow: 0 4px 20px rgba(5, 13, 24, 0.06);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.clients .client-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(5, 13, 24, 0.12);
+}
+
+.clients .client-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.clients .client-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #149ddd;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.clients .client-type {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #149ddd;
+  background: #eaf6fc;
+  padding: 4px 12px;
+  border-radius: 50px;
+  text-align: right;
+}
+
+.clients .client-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #050d18;
+  margin-bottom: 2px;
+}
+
+.clients .client-sub {
+  font-style: italic;
+  color: #728394;
+  margin-bottom: 12px;
+}
+
+.clients .client-tags {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.clients .client-tags li {
+  font-size: 13px;
+  color: #173b6c;
+  background: #f5f8fd;
+  border: 1px solid #e3ecf7;
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+.clients .client-link {
+  margin-top: auto;
+  font-weight: 600;
+  color: #149ddd;
+}
+
+.clients .client-link:hover {
+  color: #050d18;
+}
+
+/*--------------------------------------------------------------
+# Skill groups
+--------------------------------------------------------------*/
+.skills .skill-group {
+  height: 100%;
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(5, 13, 24, 0.06);
+}
+
+.skills .skill-group h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #050d18;
+  margin-bottom: 14px;
+}
+
+.skills .skill-group h3 i {
+  color: #149ddd;
+  margin-right: 6px;
+}
+
+.skills .skill-group ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skills .skill-group li {
+  font-size: 14px;
+  font-weight: 600;
+  color: #173b6c;
+  background: #f5f8fd;
+  border: 1px solid #e3ecf7;
+  padding: 4px 12px;
+  border-radius: 50px;
+}
